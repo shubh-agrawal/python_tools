@@ -14,10 +14,10 @@ browser=webdriver.Chrome(chromedriver)
 browser.get("http://site24.way2sms.com/content/index.html")
 
 mobEle=browser.find_element_by_xpath(".//*[@id='Login']/div[2]/form/div[1]/input")
-mobEle.send_keys('9933988118')
+mobEle.send_keys('9999999999')
 
 passEle=browser.find_element_by_xpath(".//*[@id='Login']/div[2]/form/div[2]/input")
-passEle.send_keys('blackhole')
+passEle.send_keys('xxxxxxxx')
 passEle.submit()
 
 smsEle=browser.find_element_by_xpath(".//*[@id='ebFrm']/div[2]/div[1]/input")
